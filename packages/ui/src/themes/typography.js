@@ -9,61 +9,74 @@ export default function themeTypography(theme) {
         h6: {
             fontWeight: 500,
             color: theme.heading,
-            fontSize: '0.75rem'
+            fontSize: '0.75rem',
+            letterSpacing: '-0.01em'
         },
         h5: {
             fontSize: '0.875rem',
             color: theme.heading,
-            fontWeight: 500
+            fontWeight: 500,
+            letterSpacing: '-0.01em'
         },
         h4: {
             fontSize: '1rem',
             color: theme.heading,
-            fontWeight: 600
+            fontWeight: 600,
+            letterSpacing: '-0.01em'
         },
         h3: {
             fontSize: '1.25rem',
             color: theme.heading,
-            fontWeight: 600
+            fontWeight: 600,
+            letterSpacing: '-0.01em'
         },
         h2: {
             fontSize: '1.5rem',
             color: theme.heading,
-            fontWeight: 700
+            fontWeight: 700,
+            letterSpacing: '-0.01em'
         },
         h1: {
             fontSize: '2.125rem',
             color: theme.heading,
-            fontWeight: 700
+            fontWeight: 700,
+            letterSpacing: '-0.01em'
         },
         subtitle1: {
             fontSize: '0.875rem',
-            fontWeight: 500,
-            color: theme.textDark
+            fontWeight: 400,
+            color: theme.textDark,
+            letterSpacing: '-0.01em'
         },
         subtitle2: {
             fontSize: '0.75rem',
             fontWeight: 400,
-            color: theme.darkTextSecondary
+            color: theme.darkTextSecondary,
+            letterSpacing: '-0.01em'
         },
         caption: {
             fontSize: '0.75rem',
             color: theme.darkTextSecondary,
-            fontWeight: 400
+            fontWeight: 400,
+            letterSpacing: '-0.01em'
         },
         body1: {
             fontSize: '0.875rem',
             fontWeight: 400,
-            lineHeight: '1.334em'
+            lineHeight: '1.334em',
+            letterSpacing: '-0.01em'
         },
         body2: {
-            letterSpacing: '0em',
+            letterSpacing: '-0.01em',
             fontWeight: 400,
-            lineHeight: '1.5em',
-            color: theme.darkTextPrimary
+            lineHeight: '1.334em',
+            color: theme.darkTextPrimary,
+            fontSize: '0.875rem'
         },
         button: {
-            textTransform: 'capitalize'
+            textTransform: 'none',
+            fontWeight: 500,
+            letterSpacing: '-0.01em'
         },
         customInput: {
             marginTop: 1,
@@ -89,10 +102,10 @@ export default function themeTypography(theme) {
         mainContent: {
             backgroundColor: theme.background,
             width: '100%',
-            minHeight: 'calc(100vh - 75px)',
+            minHeight: 'calc(100vh - 88px)',
             flexGrow: 1,
             padding: '20px',
-            marginTop: '75px',
+            marginTop: '88px',
             marginRight: '20px',
             borderRadius: `${theme?.customization?.borderRadius}px`
         },

@@ -4,6 +4,9 @@
 // third-party
 @import 'react-perfect-scrollbar/dist/css/styles.css';
 
+// Import de la police Inter depuis Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 // ==============================|| LIGHT BOX ||============================== //
 .fullscreen .react-images__blanket {
     z-index: 1200;
