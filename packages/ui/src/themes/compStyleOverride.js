@@ -8,6 +8,9 @@ export default function componentStyleOverrides(theme) {
                     scrollbarColor: theme?.customization?.isDarkMode
                         ? `${theme.colors?.grey500} ${theme.colors?.darkPrimaryMain}`
                         : `${theme.colors?.grey300} ${theme.paper}`,
+                    '& *': {
+                        borderRadius: '2px !important'
+                    },
                     '&::-webkit-scrollbar, & *::-webkit-scrollbar': {
                         width: 12,
                         height: 12,
